@@ -61,4 +61,34 @@ h1 {
     max-height: 100%;
     margin-top: -70px;
 }
+
+.pic-bg {
+    width: 450px;
+    height: 550px;
+    background-color:#fe5000;
+    margin-top: -400px;
+    margin-left: 40px;
+    border-top-left-radius: 50%; /* Top left corner creates a circular shape */
+    border-top-right-radius: 50%; /* Top right corner creates a circular shape */
+    border-bottom-left-radius: 0; /* Bottom left corner makes it flat */
+    border-bottom-right-radius: 0;
+  }
 }
+
+.hero-texts {
+    margin-top: -600px;
+    margin-left: 40px;
+    padding: 60px;
+}
+
+.quote {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.para {
+    margin-top: -20px;
+font-family: 'Open Sans', sans-serif;
+}
+
