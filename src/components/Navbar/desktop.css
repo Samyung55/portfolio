@@ -9,7 +9,7 @@
   
   .nav-listing {
     list-style-type: none;
-    margin: 0;
+    margin-right: 20em;
     padding: 10px 20px;
     display: flex;
     text-decoration: none;
