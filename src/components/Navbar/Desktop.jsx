@@ -5,12 +5,10 @@ const Desktop = () => {
   
     return (
       <div className="nav-desktop">
-        
-        <div class="image-container">
-        <img src="src\assets\s.png" alt="logo" />
-          </div>
           <div className="naming">
-          Sam</div>
+          <img src="src\assets\s.png" alt="logo" />
+          <h3>Sam</h3>
+          </div>
           <ul className="nav-listing">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
