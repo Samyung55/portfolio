@@ -166,11 +166,10 @@ li a:hover {
 }
 
 .image-container {
+  display: block;
 }
 
 img {
   max-width: 10%;
   height: auto;
-  margin: 0 auto;
-  background-color: transparent; /* Ensure the image background is transparent */
 }
