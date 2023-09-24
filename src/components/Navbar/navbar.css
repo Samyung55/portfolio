@@ -131,9 +131,14 @@ li a:hover {
 .naming {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  padding: 12px 20px;
   color: white;
   font-size: 16pt;
+  display: flex;
+}
+
+.naming h3{
+  margin-top: 12px;
+  margin-left: 5px;
 }
 
 li a {
@@ -165,11 +170,6 @@ li a:hover {
   -o-border-radius: 30pt;
 }
 
-.image-container {
-  display: block;
-}
-
 img {
-  max-width: 10%;
-  height: auto;
+  width: 10%;
 }
