@@ -2,7 +2,7 @@
 
 @media (max-width: 768px) {
     .nav {
-      background-color: #3d3f3c;
+      background-color: #1d1d1d;
       color: white;
       display: flex;
       justify-content: space-between;
