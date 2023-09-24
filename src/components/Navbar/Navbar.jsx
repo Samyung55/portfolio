@@ -7,10 +7,10 @@ const NavbarWrapper = styled.div`
   /* Default styles for both desktop and mobile */
   /* Add any common styles here */
 
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
     /* Media query for mobile view (adjust the width as needed) */
     .desktop-view {
-      display: block;
+      display: none;
     }
     .mobile-view {
       display: block;
@@ -20,7 +20,7 @@ const NavbarWrapper = styled.div`
   @media (min-width: 769px) {
     /* Media query for desktop view (adjust the width as needed) */
     .desktop-view {
-      display: ;
+      display: block;
     }
     .mobile-view {
       display: none;
