@@ -10,7 +10,9 @@ const Mobile = () => {
 
   return (
     <div className={`nav ${menuOpen ? "menu-open" : "d"}`}>
-      <div className="name">Sam</div>
+      <div className="name"> 
+          <img src="src\assets\s.png" alt="logo" />
+          Sam</div>
       <div className="menu-icon" onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>
