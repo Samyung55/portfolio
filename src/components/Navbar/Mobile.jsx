@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./navbar.css";
+import "./mobile.css";
 
 const Mobile = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const Mobile = () => {
     <div className={`nav ${menuOpen ? "menu-open" : "d"}`}>
       <div className="name"> 
           <img src="src\assets\s.png" alt="logo" />
-          Sam</div>
+          <h3>Sam</h3> </div>
       <div className="menu-icon" onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>
