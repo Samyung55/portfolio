@@ -111,4 +111,10 @@
       -o-border-radius: 30pt;
     }
     
+.nav-list.show-menu {
+  transform: translateY(0);
+  padding: 20px;
+  z-index: 2; 
+}
+
     }
