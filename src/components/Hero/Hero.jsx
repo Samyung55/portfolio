@@ -11,9 +11,15 @@ const Hero = () => {
             <img src="src\assets\sam.png" alt="sam-yung" className="pic" />
             <div className="pic-bg"></div>
             </div>
+            <div className="link-box">
+            <button className="portfolio">Portfilio </button>
+            <button className="hire-me">Hire Me</button>
+            </div>
         </div>
          <div className="hero-texts">
-         <h2 className="quote">"</h2>
+         <h2 className="quote">
+            <img src="src\assets\quote-left-svgrepo-com.svg" />
+         </h2>
          <p className="para">Sam's exceptional product design <br /> ensured our website success.<br />
              Highly recommended!
          </p>
@@ -21,6 +27,19 @@ const Hero = () => {
          <p className="para-2">Client Served
          </p>
      </div>
+     <div className="hero-texts-2">
+         
+            <img src="src\assets\icons8-star-64.png" />
+            <img src="src\assets\icons8-star-64.png" />
+            <img src="src\assets\icons8-star-64.png" />
+            <img src="src\assets\icons8-star-64.png" />
+            <img src="src\assets\icons8-star-64.png" />
+         <h2 className="serve-2">5 Years</h2>
+         <p className="para-3">Experts
+         </p>
+         <div className="bar"></div>
+     </div>
+    
      </>
     )
 }
