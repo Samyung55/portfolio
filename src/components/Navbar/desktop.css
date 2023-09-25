@@ -3,14 +3,14 @@
 .nav-desktop {
     display: flex;
     justify-content: space-between;
-    padding: 16px 80px;
+    padding: 10px 40px;
     background-color: #1c1c1c;
   }
   
   .nav-listing {
     list-style-type: none;
     margin-right: 20em;
-    padding: 10px 20px;
+    padding: 11px 20px;
     display: flex;
     text-decoration: none;
     color: white;
@@ -49,19 +49,20 @@
   }
   
   .nav-button-desk {
-    padding: 10px 30px;
+    width: 9%;
+    height: 45px;
     background-color: #d14900;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-size: 10pt;
     font-weight: 600;
     color: white;
     border: 0px;
-    border-radius: 30pt;
-    -webkit-border-radius: 30pt;
-    -moz-border-radius: 30pt;
-    -ms-border-radius: 30pt;
-    -o-border-radius: 30pt;
-  }
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
   
   img {
     width: 10%;
