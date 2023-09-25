@@ -1,0 +1,84 @@
+.service-bg {
+    background-color: black;
+    margin-top: 110px;
+    position: relative;
+    color: white;
+    padding: 4em 8em;
+    display: flex;
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+}
+
+.lorem {
+    margin-left: 43.5em;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 4px;
+    color: rgb(208, 204, 204);
+    
+}
+
+.my-services {
+    font-size: 40px;
+}
+
+.span {
+    color: #fe5000;
+}
+
+.service-bar {
+    position: relative;
+        background-color: #686868;
+        height: 3px;
+        width: 79em;
+        margin: -2.5em 0px -3.5em 8em;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+    .service-bg {
+        background-color: black;
+        margin-top: 10px;
+        position: relative;
+        color: white;
+        padding: 4em 4em;
+        display: flex;
+        border-top-left-radius: 5em;
+        border-top-right-radius: 5em;
+        flex-direction: column;
+    }
+    
+    .lorem {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(208, 204, 204);
+        margin-left: -0.1em;
+        margin-bottom: 10px;
+    }
+    
+    .my-services {
+        font-size: 30px;
+    }
+    
+    .span {
+        color: #fe5000;
+    }
+    
+    .service-bar {
+        position: relative;
+            background-color: #686868;
+            height: 3px;
+            width: 20em;
+            margin-left: 3.9em;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+    }
+}
