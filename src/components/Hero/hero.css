@@ -138,6 +138,7 @@ h1 {
     .pic {
         width: 450px;
         margin-top: -100px;
+        margin-bottom: -8px;
     }
 
     .pic-bg {
