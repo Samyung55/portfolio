@@ -14,12 +14,51 @@ const Services = () => {
         <div className="cards">
             <div className="card-1">
             <h2 className="box-head">UI/UX Design</h2>
+            <div className="card-bar"></div>
+
                 <div className="box1"></div>
                 <div className="box2"></div>
-                <div className="box3"></div>
+                <div className="box3"><img src="src\assets\phone.png" className="phone"/>
+                </div>
+            
             </div>
+            
+            <div className="circle"><div className="inner-arrow"><img src="src\assets\arrow-removebg-preview.png" /></div></div>
+            
+            <div className="card-2">
+            <h2 className="box-head">Product Design</h2>
+            <div className="card-bar"></div>
+
+                <div className="box1"></div>
+                <div className="box2"></div>
+                <div className="box3"><img src="src\assets\phone.png" className="phone"/>
+                </div>
+            
+            </div>
+            <div className="circle-2"><div className="inner-arrow2"><img src="src\assets\arrow-removebg-preview.png" /></div></div>
+
+
+            <div className="card-3">
+            <h2 className="box-head">Web Development</h2>
+            <div className="card-bar"></div>
+
+                <div className="box1"></div>
+                <div className="box2"></div>
+                <div className="box3"><img src="src\assets\phone.png" className="phone"/>
+                </div>
+            
+            </div>
+            <div className="circle-3"><div className="inner-arrow3"><img src="src\assets\arrow-removebg-preview.png" /></div></div>
+            
         </div>
+            
+            
+            
+        
         </div>
+        
+        
+        
        
         </>
     )
