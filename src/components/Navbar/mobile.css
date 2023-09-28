@@ -28,7 +28,7 @@
       flex-direction: column;
       cursor: pointer;
       margin-top: 22px;
-      background-color: #fe5900;
+      background-color: #fe4519;
       margin-bottom: 22px;
       border-radius: 8px;
       -webkit-border-radius: 8px;
@@ -92,13 +92,13 @@
       font-family: 'Open Sans', sans-serif;
       text-decoration: none;
       font-size: 10pt;
-      color: #fe5900;
+      color: #fe4519;
     }
     
     .nav-button {
       margin-bottom: -10px;
       padding: 10px 30px;
-      background-color: #fe5900;
+      background-color: #fe4519;
       font-family: 'Open Sans', sans-serif;
       font-size: 10pt;
       font-weight: 600;
