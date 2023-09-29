@@ -26,7 +26,7 @@ const Hire = () => {
                     </div>
                     <div className="complete-2">
                         <h2 className="completion">50+</h2>
-                        <p className="industry">Industy Covered</p>
+                        <p className="industry">Industry Covered</p>
                     </div>
                 </div>
                 <button className="hire-btn">Hire Me</button>
