@@ -1,6 +1,6 @@
 .service-bg {
-    background-color: rgb(33, 33, 33);
-    margin-top: 120px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 130px;
     position: relative;
     color: white;
     padding: 4em 4em;
@@ -19,7 +19,7 @@
 }
 
 .my-services {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .span {
@@ -117,12 +117,12 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(33, 33, 33);
+    border: 30px solid rgb(0, 0, 0);
     cursor: pointer;
   }
 
 .card-2{
-    background-color: #3d3d3d9f;
+    background-color: #fe4519;
     position: relative;
     width: 30%;
     padding: 30px;
@@ -135,6 +135,61 @@
     overflow: hidden;
     margin-left: 50px;
 }
+
+.card-2 .card-bar{
+    position: relative;
+    background-color: #eeeeee7f;
+    height: 2px;
+    width: 19.em;
+    margin: 1.6em -1.9em 1em;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.card-2 .box1{
+    
+    color: rgb(179, 178, 178);
+    width: 289px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #f6b99d75;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: 2em;
+}
+
+.card-2 .box2{
+    
+    color: rgb(179, 178, 178);
+    width: 350px;
+    height: 200px;
+    margin-top: -170px;
+    background-color: #f6b99d;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: -0.em;
+
+}
+
+.circle-2 {
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #fe4519; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: 18.5em;
+    margin-left: -8em;
+    border: 30px solid rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
 
 .card-2:hover {
     background-color: #fe4519;
@@ -201,7 +256,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(33, 33, 33);
+    border: 30px solid rgb(0, 0, 0);
     cursor: pointer;
   }
 
@@ -285,7 +340,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(33, 33, 33);
+    border: 30px solid rgb(0, 0, 0);
     cursor: pointer;
   }
 
@@ -365,7 +420,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(33, 33, 33);
+    border: 30px solid rgb(0, 0, 0);
   }
 .circle-2 {
     position: relative;
@@ -375,7 +430,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(33, 33, 33);
+    border: 30px solid rgb(0, 0, 0);
   }
 
   .circle-3 {
@@ -386,7 +441,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(33, 33, 33);
+    border: 30px solid rgb(0, 0, 0);
   }
 
 
@@ -422,7 +477,7 @@
   }
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
     .service-bg {
         background-color: black;
         margin-top: 10px;
@@ -449,20 +504,419 @@
     }
     
     .span {
-        color: #fe5000;
+        color: #fe4519;
     }
     
     .service-bar {
         position: relative;
             background-color: #686868;
-            height: 3px;
-            width: 23em;
-            margin-left: 3.9em;
+            height: 1px;
+            width: 31em;
+            margin-left: -5em;
             border-radius: 4px;
+            margin-top: 2em;
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
             -o-border-radius: 4px;
     }
     
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+.card-1{
+    background-color: #3d3d3d9f;
+    position: relative;
+    width: 110%;
+    padding: 30px;
+    height: 30em;
+    margin-top: -60px;
+    margin-left: -19px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 10em;
+    overflow: hidden;
+}
+
+.circle {
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #3d3d3d; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: -8em;
+    margin-left: 16em;
+    border: 30px solid rgb(0, 0, 0);
+}
+
+.circle:hover{
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #fe4519; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: -8em;
+    margin-left: 16em;
+    border: 30px solid rgb(0, 0, 0);
+  }
+
+.card-1:hover {
+    background-color: #fe4519;
+    position: relative;
+    width: 110%;
+    padding: 30px;
+    height: 30em;
+    margin-top: -60px;
+    margin-left: -19px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 10em;
+    overflow: hidden;
+}
+
+
+.card-2{
+    background-color: #fe4519;
+    position: relative;
+    width: 110%;
+    padding: 30px;
+    height: 30em;
+    margin-top: -0px;
+    margin-left: -19px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 10em;
+    overflow: hidden;
+}
+
+.card-2 .card-bar{
+    position: relative;
+    background-color: #eeeeee7f;
+    height: 2px;
+    width: 19.em;
+    margin: 1.6em -1.9em 1em;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.card-2 .box1{
+    
+    color: rgb(179, 178, 178);
+    width: 289px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #f6b99d75;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: 2em;
+}
+
+.card-2 .box2{
+    
+    color: rgb(179, 178, 178);
+    width: 350px;
+    height: 200px;
+    margin-top: -170px;
+    background-color: #f6b99d;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: -0.em;
+
+}
+
+.circle-2 {
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #fe4519; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: em;
+    margin-left: 0em;
+    border: 30px solid rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+
+.card-2:hover {
+    background-color: #fe4519;
+    position: relative;
+    width: 110%;
+    padding: 30px;
+    height: 30em;
+    margin-top: -0px;
+    margin-left: -19px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 10em;
+    overflow: hidden;
+}
+
+.card-2:hover .box1{
+    
+    color: rgb(179, 178, 178);
+    width: 289px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #f6b99d75;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: 2em;
+}
+
+.card-2:hover .box2{
+    
+    color: rgb(179, 178, 178);
+    width: 350px;
+    height: 200px;
+    margin-top: -170px;
+    background-color: #f6b99d;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: -0.em;
+
+}
+
+.card-2:hover .card-bar{
+    position: relative;
+    background-color: #b6b6b67a;
+    height: 2px;
+    width: 19.em;
+    margin: 1.6em -1.9em 1em;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+ .circle-2:hover{
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #fe4519; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: 18.5em;
+    margin-left: -8em;
+    border: 30px solid rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+.card-3{
+    background-color: #3d3d3d9f;
+    position: relative;
+    width: 110%;
+    padding: 30px;
+    height: 30em;
+    margin-top: -0px;
+    margin-left: -19px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 10em;
+    overflow: hidden;
+}
+
+.card-3:hover {
+    background-color: #fe4519;
+    position: relative;
+    width: 110%;
+    padding: 30px;
+    height: 30em;
+    margin-top: -0px;
+    margin-left: -19px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 10em;
+    overflow: hidden;
+}
+
+.card-3:hover .box1{
+    
+    color: rgb(179, 178, 178);
+    width: 289px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #f6b99d75;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: 2em;
+}
+
+.card-3:hover .box2{
+    
+    color: rgb(179, 178, 178);
+    width: 350px;
+    height: 200px;
+    margin-top: -170px;
+    background-color: #f6b99d;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: -0.em;
+
+}
+
+.card-3:hover .card-bar{
+    position: relative;
+    background-color: #b6b6b67a;
+    height: 2px;
+    width: 19.em;
+    margin: 1.6em -1.9em 1em;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+ .circle-3:hover{
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #fe4519; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: 18.5em;
+    margin-left: -8em;
+    border: 30px solid rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+
+
+.card-bar{ 
+    
+    position: relative;
+        background-color: #686868;
+        height: 2px;
+        width: 19.em;
+        margin: 1.6em -1.9em 1em;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+
+.box-head{
+    margin: px 0px;
+    font-weight: 300;
+    font-size: 27px;
+    font-family: 'Syne', sans-serif;
+}
+
+.box1{
+    color: rgb(179, 178, 178);
+    width: 289px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #9d9d9d8f;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: 2em;
+}
+
+.box2{
+    color: rgb(179, 178, 178);
+    width: 350px;
+    height: 200px;
+    margin-top: -170px;
+    background-color: #939393;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 5em;
+    margin-left: -0.em;
+}
+
+.box3{
+    color: rgb(255, 255, 255);
+    width: 411px;
+    height: 300px;
+    margin-top: -170px;
+    background-color: #ffffff;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 7.2em;
+    margin-left: -1.89em;
+    overflow: hidden;
+}
+
+.phone {
+    height: auto;
+    width: 410px;
+}
+
+
+.circle-2 {
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #3d3d3d; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: 18.5em;
+    margin-left: -8em;
+    border: 30px solid rgb(0, 0, 0);
+  }
+
+  .circle-3 {
+    position: relative;
+    width: 150px; /* Set the width and height to create a circle */
+    height: 150px;
+    background-color: #3d3d3d; /* Add background color (optional) */
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    margin-top: 18.5em;
+    margin-left: -8em;
+    border: 30px solid rgb(0, 0, 0);
+  }
+
+
+  .inner-arrow img {
+    position: relative;
+    width: 55px; /* Set the width and height to create a circle */
+    height: 50px;
+    color: white;
+    margin-top: 18px;
+    margin-left: 20px;
+  }
+
+  .inner-arrow2 img {
+    position: relative;
+    width: 55px; /* Set the width and height to create a circle */
+    height: 50px;
+    color: white;
+    margin-top: 18px;
+    margin-left: 20px;
+  }
+
+  .inner-arrow3 img {
+    position: relative;
+    width: 55px; /* Set the width and height to create a circle */
+    height: 50px;
+    color: white;
+    margin-top: 18px;
+    margin-left: 20px;
+  }
+
 }
