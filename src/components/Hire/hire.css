@@ -21,7 +21,7 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     overflow: hidden;
-    margin-left: -5em;
+    margin-left: 5em;
     
 }
 
@@ -33,14 +33,14 @@
 
 .section-2 {
     margin-left: 10em;
-    margin-top: -3em;
-    width: 30%;
+    margin-top: em;
+    width: 40%;
 }
 
 .why {
     font-family: 'Syne', sans-serif;
-    margin-bottom: 1em;
-    font-size: 28px;
+    margin-bottom: 0.6em;
+    font-size: 35px;
 }
 
 .hire-span {
@@ -51,8 +51,8 @@
 
 .description {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    margin-bottom: 22px;
+    font-size: 17px;
+    margin-bottom: 26px;
 }
 
 .achieve {
@@ -60,24 +60,25 @@
 }
 
 .complete-1 {
-    margin-right: 3em;
+    margin-right: 5em;
 }
 
 .complete-1, .complete-2 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .completion {
     font-family: 'Syne', sans-serif;
-    font-size: 26px;
-    margin-bottom: 4px;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .hire-btn {
     margin-top: 4em;
     padding: 10px;
-    width: 30%;
+    width: 25%;
+    font-weight: bol;
     border-color: #fe4519;
     color: #fe4519;
     border-radius: 25px;
