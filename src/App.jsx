@@ -7,8 +7,18 @@ import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
 import Work from './components/Work/Work'
 import Hire from './components/Hire/Hire'
+import Carousel from './components/Carousel/Carousel'
+import phone from "./assets/phone.png"
 
 const App = () => {
+
+  const images = [
+    phone,
+    phone,
+    phone,
+    phone,
+  ];
+
   return (
   <>
   <Navbar />
@@ -16,6 +26,7 @@ const App = () => {
   <Services />
   <Work />
   <Hire/>
+  <Carousel items={images}/>
   </>
   )
 }
