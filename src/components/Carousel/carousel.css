@@ -145,3 +145,8 @@
     margin-left: -20px;
 }
 
+.project-description {
+    margin-top: 0.8em;
+    width: 50%;
+    text-align: center;
+}
