@@ -14,6 +14,8 @@ const App = () => {
   const CarouselContainer = () => {
     const { project } = useContext(ProjectContext);
   
+    console.log("Project data:", project);
+  
     return (
       <>
         {project.map(item => (
@@ -22,16 +24,16 @@ const App = () => {
       </>
     );
   }
+  
 
   return (
     <>
-      
+      <ProjectProvider>
         <Navbar />
         <Hero />
         <Services />
         <Work />
         <Hire />
-        <ProjectProvider>
           <CarouselContainer />
       </ProjectProvider>
     </>
