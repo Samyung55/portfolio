@@ -1,7 +1,6 @@
-import React from "react"
-
-import phone from "./assets/phone.png"
-import development from './assets/development.png'
+import React from "react";
+import phone from "../assets/phone.png";
+import development from '../assets/development.png';
 
 export const ProjectData = [
     {
@@ -18,5 +17,4 @@ export const ProjectData = [
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
         images: [phone, development]
     }
-]
-
+];
