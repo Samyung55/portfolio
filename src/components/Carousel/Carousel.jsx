@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import "./carousel.css"
 
-const Carousel = ({ items, project }) => {
+const Carousel = ({ project }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     
 
     const nextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1));
+        setCurrentIndex((prevIndex) => (prevIndex === project.length - 1 ? 0 : prevIndex + 1));
     }
 
     const prevSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex === 0 ? items.length - 1 : prevIndex - 1))
+        setCurrentIndex((prevIndex) => (prevIndex === 0 ? project.length - 1 : prevIndex - 1))
     }
 
-    const nextIndex = (currentIndex + 1) % items.length;
+    const nextIndex = (currentIndex + 1) % project.length;
 
 
     return (
@@ -27,10 +27,10 @@ const Carousel = ({ items, project }) => {
             <button className="carousel-btn" onClick={prevSlide}><img src="src\assets\arrow-sm-left-svgrepo-com.svg" /></button> 
             <div className="carousel-container">
                 <div className="slide">
-                    <img src={items[currentIndex]} alt={`Slide ${currentIndex}`} />
+                    <img src={project.images[currentIndex]} alt={`Slide ${currentIndex}`} />
                 </div>
                 <div className="slide">
-                    <img src={items[nextIndex]} alt={`Slide ${nextIndex}`} />
+                    <img src={project.images[nextIndex]} alt={`Slide ${nextIndex}`} />
                 </div>
             </div>
             <button className="carousel-btn-2" onClick={nextSlide}><img src="src\assets\arrow-sm-right-svgrepo-com.svg" /></button>
