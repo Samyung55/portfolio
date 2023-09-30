@@ -10,13 +10,10 @@ import Hire from './components/Hire/Hire'
 import Carousel from './components/Carousel/Carousel'
 import phone from "./assets/phone.png"
 
-const App = () => {
+const App = (project) => {
 
   const images = [
-    phone,
-    phone,
-    phone,
-    phone,
+    project.images
   ];
 
   return (
