@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./carousel.css"
 
-const Carousel = ({ items }) => {
+const Carousel = ({ items, project }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const nextSlide = () => {
@@ -33,8 +33,22 @@ const Carousel = ({ items }) => {
             </div>
             <button className="carousel-btn-2" onClick={nextSlide}><img src="src\assets\arrow-sm-right-svgrepo-com.svg" /></button>
             </div>
-
-            
+            <div className="project-info">
+            <div className="tags">
+                <h3>UI/UX Design</h3>
+                <h3>Landing Page</h3>
+                <h3>Wireframe</h3>
+            </div>
+            <div className="project-title">
+                Food Express - Food Delivery Solution
+            </div>
+            <p className="project-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Consequuntur quis officia modi expedita soluta repellat, 
+                possimus provident eum animi 
+                necessitatibus nostrum amet non vitae, molestias velit eligendi ab ipsum sint.
+            </p>
+            </div>
         </div>
     )
 }
