@@ -4,6 +4,8 @@ import "./carousel.css"
 const Carousel = ({ items, project }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
 
+    
+
     const nextSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1));
     }
