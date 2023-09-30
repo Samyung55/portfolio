@@ -28,14 +28,12 @@ const App = () => {
 
   return (
     <>
-      <ProjectProvider>
         <Navbar />
         <Hero />
         <Services />
         <Work />
         <Hire />
           <CarouselContainer />
-      </ProjectProvider>
     </>
   );
 }
