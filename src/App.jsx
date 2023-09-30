@@ -17,10 +17,7 @@ const App = () => {
     console.log("Project data:", project);
   
     return (
-      <>
-        {project.map(item => (
-          <Carousel key={item.id} project={item} />
-        ))}
+      <><Carousel projects={project} />
       </>
     );
   }
