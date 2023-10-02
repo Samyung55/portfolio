@@ -113,10 +113,10 @@
     .work {
         display: flex;
         flex-direction: column;
-        padding: 4em 2em;
+        padding: 4em 0em;
         justify-content: center;
         align-items: center;
-        margin-bottom: -5e;
+        margin-left: 4em;
     }
     
     .companies {
@@ -138,7 +138,7 @@
         margin-bottom: 35px;
         margin-left: -35px;
         margin-top: -15px;
-    width: 40%;
+    width: 50%;
     text-align: center;
     }
     
