@@ -35,7 +35,7 @@ const Testimonial = () => {
             </div>
             <div className="client-info">
                 <div className="client-img">
-                    <img src=""></img>
+                    <img src="src\assets\clients\henry.png"></img>
                 </div>
                 <div className="client-name">
                     <h3>Henry, Arthur</h3>
