@@ -44,18 +44,36 @@ export const ClientData = [
         comment: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
         name: "Henry, Arthur",
         company: "CEO, Food Express",
-        clientimg: [
-
-        ]
+        clientimg: <img src="src\assets\clients\henry.png" />
     },
     {
         id: 2,
         stars: "5.0",
         starimg: [
-            star, star, star, star, star
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />
         ],
         comment: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
         name: "Thomas, Arthur",
-        company: "CTO, EV Changer" 
+        company: "CTO, EV Changer",
+        clientimg: <img src="src\assets\clients\Xavier Roger.jpg" />,
+    },
+    {
+        id: 3,
+        stars: "5.0",
+        starimg: [
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />
+        ],
+        comment: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
+        name: "Pedro, Vicka",
+        company: "Vice Chairman, TK Law Firm",
+        clientimg: <img src="src\assets\clients\Xavier Roger.jpg" />,
     }
 ]
