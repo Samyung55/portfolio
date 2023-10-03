@@ -33,17 +33,24 @@ export const ProjectData = [
 export const ClientData = [
     {
         id: 1,
-        stars: 5.0,
+        stars: "5.0",
         starimg: [
-            star, star, star, star, star
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />,
+            <img src="src\assets\icons8-star-64.png" />
         ],
         comment: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
         name: "Henry, Arthur",
-        company: "CEO, Food Express" 
+        company: "CEO, Food Express",
+        clientimg: [
+
+        ]
     },
     {
         id: 2,
-        stars: 5.0,
+        stars: "5.0",
         starimg: [
             star, star, star, star, star
         ],
