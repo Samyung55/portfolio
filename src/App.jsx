@@ -9,6 +9,7 @@ import Carousel from './components/Carousel/Carousel'
 import phone from "./assets/phone.png"
 import ProjectProvider from './context/ProjectContext.jsx'
 import ProjectContext from './context/ProjectContext.jsx'
+import Testimonial from './components/Testimonial/Testimonial'
 
 const App = () => {
   const CarouselContainer = () => {
@@ -24,14 +25,15 @@ const App = () => {
   
 
   return (
-    <>
+      <>
         <Navbar />
         <Hero />
         <Services />
         <Work />
         <Hire />
-          <CarouselContainer />
-    </>
+        <CarouselContainer />
+        <Testimonial />
+      </>
   );
 }
 
