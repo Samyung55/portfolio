@@ -24,7 +24,7 @@
     font-family: 'Syne', sans-serif;
     margin-bottom: 0.3em;
     font-size: 35px;
-    width: 11em;
+    width: 12em;
     text-align: center;
     line-height: 45px;
     color: white;
@@ -36,6 +36,7 @@
     color: rgb(208, 204, 204);
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
 }
 
 .test-array {
@@ -53,7 +54,7 @@
 
 .stars {
     display: flex;
-    margin-bottom: 12px;
+    margin: 5px 0;
 }
 
 .stars img {
@@ -72,11 +73,13 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: rgb(208, 204, 204);
+    margin-top: 15px;
 }
 
 .client-info {
     margin-top: 25px;
     display: flex;
+    width: 160%;
 }
 
 .client-img {
@@ -111,3 +114,13 @@
     color: rgb(208, 204, 204);
     margin-top: 3px;
 }
+
+.quote {
+    margin-left: 9.5em;
+}
+
+.test-buttons {
+    display: flex;
+}
+
+.te
