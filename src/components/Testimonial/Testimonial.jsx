@@ -9,12 +9,12 @@ const Testimonial = ({ clients }) => {
   
     const nextSlide = () => {
       setCurrentIndex((prevIndex) => (prevIndex === clients.length - 1 ? 0 : prevIndex + 1));
-      setNextIndex((prevIndex) => (prevIndex === clients.length - 1 ? 0 : prevIndex + 2));
+      setNextIndex((prevIndex) => (prevIndex === clients.length - 1 ? 0 : prevIndex + 1));
     };
   
     const prevSlide = () => {
       setCurrentIndex((prevIndex) => (prevIndex === 0 ? clients.length - 1 : prevIndex - 1));
-      setPrevIndex((prevIndex) => (prevIndex === 0 ? clients.length - 1 : prevIndex - 2));
+      setPrevIndex((prevIndex) => (prevIndex === 0 ? clients.length - 1 : prevIndex - 1));
       setNextIndex((prevIndex) => (prevIndex === 0 ? clients.length - 1 : prevIndex - 1));
     };
   
