@@ -24,22 +24,31 @@
     font-family: 'Syne', sans-serif;
     margin-bottom: 0.3em;
     font-size: 35px;
-    width: 10em;
+    width: 11em;
     text-align: center;
     line-height: 45px;
     color: white;
 }
 
 .test-p {
-    width: 35em;
+    width: 45em;
     text-align: center;
     color: rgb(208, 204, 204);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .test-array {
     background-color: #3B3B3B;
     padding: 1em;
-    width: 50em;
+    width: 45em;
+    margin-top: 3em;
+    height: 15em;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .stars {
@@ -57,4 +66,48 @@
     margin-top: -1px;
     color: white;
     margin-left: 8px;
+}
+
+.test-para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(208, 204, 204);
+}
+
+.client-info {
+    margin-top: 25px;
+    display: flex;
+}
+
+.client-img {
+    overflow: hidden;
+    background-color: #fe4519;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.client-img img {
+    width: 3.2em;
+}
+
+.client-name {
+    margin-left: 20px;
+    margin-top: 2px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.client-name h3 {
+    font-size: 18px;
+}
+
+.client-name p {
+    font-size: 15px;
+    color: rgb(208, 204, 204);
+    margin-top: 3px;
 }
