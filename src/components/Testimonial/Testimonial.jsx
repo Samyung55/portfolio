@@ -28,6 +28,10 @@ const Testimonial = () => {
                 Reprehenderit unde veritatis libero dolorem provident iure distinctio, 
                 excepturi ipsa hic aut quidem minima ut at. 
                 Nesciunt dolor officia iste ea vero.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Reprehenderit unde veritatis libero dolorem provident iure distinctio, 
+                excepturi ipsa hic aut quidem minima ut at. 
+                Nesciunt dolor officia iste ea vero.
             </div>
             <div className="client-info">
                 <div className="client-img">
