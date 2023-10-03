@@ -1,6 +1,14 @@
 .testimonials {
-    /* background-color: black; */
+    background-color: black;
     padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    color: #fe4519;
 }
 
 .test-head {
@@ -31,6 +39,7 @@
 .test-array {
     background-color: rgb(208, 204, 204);
     padding: 1em;
+    width: 50em;
 }
 
 .stars {
@@ -38,5 +47,12 @@
 }
 
 .stars img {
-    
+    width: 25px;
+    height: 1.6em;
+}
+
+.stars h3 {
+    font-size: 26px;
+    margin-top: -1px;
+    color: white;
 }
