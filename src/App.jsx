@@ -15,10 +15,19 @@ const App = () => {
   const CarouselContainer = () => {
     const { project } = useContext(ProjectContext);
   
-    console.log("Project data:", project);
+    return (
+      <>
+      <Carousel projects={project} />
+      </>
+    );
+  }
+
+  const TestimonialContainer = () => {
+    const { clients } = useContext(ProjectContext);
   
     return (
-      <><Carousel projects={project} />
+      <>
+      <Testimonial clients={clients} />
       </>
     );
   }
@@ -32,7 +41,7 @@ const App = () => {
         <Work />
         <Hire />
         <CarouselContainer />
-        <Testimonial />
+        <TestimonialContainer />
       </>
   );
 }
