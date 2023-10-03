@@ -3,7 +3,7 @@ import "./testimonial.css"
 
 const Testimonial = () => {
     return (
-        <div className="testimonials">
+    <div className="testimonials">
         <div className="test-head">
             <h1 className="testimonial">
                 Testimonials that Speak to <span className="result">My Results</span> 
@@ -42,7 +42,7 @@ const Testimonial = () => {
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     )
 }
 
