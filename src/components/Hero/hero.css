@@ -114,6 +114,10 @@ h1 {
     margin-left: 75em;
 }
 
+.hero-texts-2 img {
+    width: 22px;
+}
+
 .para-3 {
     margin-top: 10px;
     font-family: 'Syne', sans-serif;
