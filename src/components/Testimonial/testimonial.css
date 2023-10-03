@@ -37,13 +37,14 @@
 }
 
 .test-array {
-    background-color: rgb(208, 204, 204);
+    background-color: #3B3B3B;
     padding: 1em;
     width: 50em;
 }
 
 .stars {
     display: flex;
+    margin-bottom: 12px;
 }
 
 .stars img {
@@ -52,7 +53,8 @@
 }
 
 .stars h3 {
-    font-size: 26px;
+    font-size: 23px;
     margin-top: -1px;
     color: white;
+    margin-left: 8px;
 }
