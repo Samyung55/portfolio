@@ -4,8 +4,11 @@
     position: relative;
     color: white;
     padding: 4em 4em;
-    border-top-left-radius: 5em;
-    border-top-right-radius: 5em;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
 }
 
 
