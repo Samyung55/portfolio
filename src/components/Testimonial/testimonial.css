@@ -1,0 +1,42 @@
+.testimonials {
+    /* background-color: black; */
+    padding: 3em;
+}
+
+.test-head {
+    padding: 1em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.testimonial {
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 0.3em;
+    font-size: 35px;
+    width: 10em;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+}
+
+.test-p {
+    width: 35em;
+    text-align: center;
+    color: rgb(208, 204, 204);
+}
+
+.test-array {
+    background-color: rgb(208, 204, 204);
+    padding: 1em;
+}
+
+.stars {
+    display: flex;
+}
+
+.stars img {
+    
+}
