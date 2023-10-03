@@ -5,6 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
 }
 
 .result {
@@ -39,7 +45,25 @@
     margin-top: 10px;
 }
 
-.test-array {
+.testing-array {
+    display: flex;
+}
+
+.test-array-1 {
+    background-color: #3B3B3B;
+    padding: 1em;
+    width: 45em;
+    margin-top: 6em;
+    height: 15em;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-right: 40px;
+}
+
+.test-array-2 {
     background-color: #3B3B3B;
     padding: 1em;
     width: 45em;
@@ -51,6 +75,21 @@
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
+
+.test-array-3 {
+    background-color: #3B3B3B;
+    padding: 1em;
+    width: 45em;
+    margin-top: 6em;
+    margin-left: 40px;
+    height: 15em;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
 
 .stars {
     display: flex;
@@ -95,7 +134,7 @@
 }
 
 .client-img img {
-    width: 3.2em;
+    width: 3.7em;
 }
 
 .client-name {
@@ -116,11 +155,48 @@
 }
 
 .quote {
-    margin-left: 9.5em;
+    margin-left: 9em;
 }
 
 .test-buttons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-top: -0.05em;
 }
 
-.te
+.test-btn {
+    background-color: #262626;
+    width: 5em;
+    height: 5.1em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.test-btn-2 {
+    background-color: #fe4519;
+        width: 5em;
+        height: 5.1em;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        cursor: pointer;
+        margin-left: 20px;
+}
+
+.test-btn img {
+    width: 2.5em;
+    margin-top: 8px;
+ }
+
+ .test-btn-2 img {
+    width: 2.5em;
+    margin-top: 8px;
+ }
