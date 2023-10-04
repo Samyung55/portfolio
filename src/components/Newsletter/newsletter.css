@@ -186,4 +186,49 @@
         margin-top: 20px;
         margin-left: 0px;
     }
+
+    .achieve-1 {
+        margin-top: 10px;
+        margin-left: -120px;
+    }
+    .achieve-1 p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        width: 200%;
+    }
+
+    .work-lists {
+        margin-top: 40px;
+        background-color: #fe4519;
+        width: 100%;
+        height: 6em;
+        border: none;
+        border-radius: 3em;
+        -webkit-border-radius: 3em;
+        -moz-border-radius: 3em;
+        -ms-border-radius: 3em;
+        -o-border-radius: 3em;
+        overflow: hidden;
+    }
+
+    .work-lists div {
+        background-color: white;
+        rotate: -10deg;
+        height: 4em;
+    }
+    
+    .work-lists div ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-family: 'Syne', sans-serif;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    .work-lists div ul li {
+        margin-right: 75px;
+        margin-top: -5px;
+    }
 }
