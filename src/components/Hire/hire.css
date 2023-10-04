@@ -1,5 +1,5 @@
 .hire {
-    padding: 3em;
+    padding: 5em 3em;
     background-color: #F0F0F0;
     display: flex;
     justify-content: center;
@@ -21,14 +21,14 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     overflow: hidden;
-    margin-left: 5em;
+    margin-left: -5em;
     
 }
 
 .hire-img {
-    width: 75%;
+    width: 85%;
     overflow: hidden;
-    margin-left: 3.5em;
+    margin-left: 2.5em;
 }
 
 .section-2 {
@@ -40,7 +40,8 @@
 .why {
     font-family: 'Syne', sans-serif;
     margin-bottom: 0.6em;
-    font-size: 35px;
+    font-size: 40px;
+    margin-left: -em;
 }
 
 .hire-span {
@@ -102,6 +103,7 @@
         -moz-border-radius: 2em;
         -ms-border-radius: 2em;
         -o-border-radius: 2em;
+        overflow: hidden;
     }
 
     .img-box {
@@ -170,7 +172,7 @@
     .hire-btn {
         margin-top: 2.7em;
         padding: 10px;
-        width: 30%;
+        width: 40%;
         border-color: #fe4519;
         color: #fe4519;
         border-radius: 25px;
