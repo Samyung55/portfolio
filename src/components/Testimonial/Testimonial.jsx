@@ -8,6 +8,7 @@ const Testimonial = ({ clients }) => {
     const [isMobile, setIsMobile] = useState(false);
   
     const nextSlide = () => {
+      setPrevIndex((prevIndex) => (prevIndex === clients.length - 1 ? 0 : prevIndex + 1));
       setCurrentIndex((prevIndex) => (prevIndex === clients.length - 1 ? 0 : prevIndex + 1));
       setNextIndex((prevIndex) => (prevIndex === clients.length - 1 ? 0 : prevIndex + 1));
     };
@@ -70,7 +71,7 @@ const Testimonial = ({ clients }) => {
                     <h3>{prevClient.name}</h3>
                     <p>{prevClient.company}</p>
                 </div>
-                <div className="quote">
+                <div className="test-quote">
                     <img src="src\assets\icons8-quote-32.png"></img>
                 </div>
             </div>
@@ -92,7 +93,7 @@ const Testimonial = ({ clients }) => {
                     <h3>{currentClient.name}</h3>
                     <p>{currentClient.company}</p>
                 </div>
-                <div className="quote">
+                <div className="test-quote">
                     <img src="src\assets\icons8-quote-32.png"></img>
                 </div>
             </div>
@@ -114,7 +115,7 @@ const Testimonial = ({ clients }) => {
                     <h3>{nextClient.name}</h3>
                     <p>{nextClient.company}</p>
                 </div>
-                <div className="quote">
+                <div className="test-quote">
                     <img src="src\assets\icons8-quote-32.png"></img>
                 </div>
             </div>
