@@ -10,6 +10,7 @@ import phone from "./assets/phone.png"
 import ProjectProvider from './context/ProjectContext.jsx'
 import ProjectContext from './context/ProjectContext.jsx'
 import Testimonial from './components/Testimonial/Testimonial'
+import Newsletter from './components/Newsletter/Newsletter'
 
 const App = () => {
   const CarouselContainer = () => {
@@ -42,6 +43,7 @@ const App = () => {
         <Hire />
         <CarouselContainer />
         <TestimonialContainer />
+        <Newsletter />
       </>
   );
 }
