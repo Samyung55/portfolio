@@ -1,0 +1,80 @@
+.newsletter {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter h1 {
+    font-size: 40px;
+    width: 40%;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.newsletter span {
+    color: #fe4519;
+}
+
+.email-box {
+    display: flex;
+    padding: 0.3em;
+    width: 50%;
+    margin-top: 2.5em;
+    border: 1px solid black;
+    border-radius: 3em;
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -o-border-radius: 3em;
+    overflow: hidden;
+}
+
+.icon-box {
+    margin-left: 3px;
+}
+
+.icon-img {
+    overflow: hidden;
+    background-color: #fe47194a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.icon-img img {
+    width: 3em;
+    padding: 8px;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+.email-box input {
+    width: 75%;
+    margin-left: 15px;
+    border: none;
+}
+
+.email-box input::placeholder {
+    color: rgba(0, 0, 0, 0.759);
+}
+
+
+.email-box button {
+    padding: 10px;
+    width: 17%;
+    border: none;
+    background-color: #fe4519;
+    color: white;
+    border-radius: 4em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    -ms-border-radius: 4em;
+    -o-border-radius: 4em;
+}
+
