@@ -73,7 +73,7 @@ export const ClientData = [
         ],
         comment: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
         name: "Pedro, Vicka",
-        company: "Vice Chairman, TK Law",
+        company: "Chairman, TK Law",
         clientimg: <img src="src\assets\clients\Xavier Roger.jpg" />,
     }
 ]
