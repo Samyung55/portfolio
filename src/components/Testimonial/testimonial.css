@@ -23,13 +23,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .testimonial {
     font-family: 'Syne', sans-serif;
     margin-bottom: 0.3em;
-    font-size: 35px;
+    font-size: 40px;
     width: 12em;
     text-align: center;
     line-height: 45px;
@@ -102,8 +101,9 @@
 }
 
 .stars h3 {
-    font-size: 23px;
-    margin-top: -1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: px;
     color: white;
     margin-left: 8px;
 }
@@ -149,13 +149,14 @@
 }
 
 .client-name p {
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(208, 204, 204);
-    margin-top: 3px;
+    margin-top: 7px;
 }
 
-.quote {
-    margin-left: 9em;
+.test-quote {
+    margin-left: 25em;
+    width: 30em;
 }
 
 .test-buttons {
@@ -176,6 +177,7 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     cursor: pointer;
+    border: none;
 }
 
 .test-btn-2 {
@@ -189,6 +191,7 @@
         -o-border-radius: 50%;
         cursor: pointer;
         margin-left: 20px;
+        border: none;
 }
 
 .test-btn img {
@@ -200,3 +203,62 @@
     width: 2.5em;
     margin-top: 8px;
  }
+
+ 
+@media (max-width: 769px) { 
+    .testimonials {
+        overflow: hidden;
+    }
+    .testimonial {
+        font-family: 'Syne', sans-serif;
+        margin-bottom: 0.3em;
+        font-size: 35px;
+        width: 9em;
+        text-align: center;
+        line-height: 45px;
+        color: white;
+    }
+
+    .test-p {
+        width: 28em;
+        color: rgb(208, 204, 204);
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .test-array-2 {
+        background-color: #3B3B3B;
+        padding: 1em;
+        width: 25em;
+        margin-top: 2em;
+        height: 16em;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        margin-left: 0.5em;
+    }
+    
+    .test-array-2 .quote{
+        margin-left: 110px;
+        width: 55%;
+    }
+    
+
+    .client-info {
+        margin-top: 20px;
+        display: flex;
+        width: 290%;
+    }
+
+    .client-name p {
+        font-size: 15px;
+        color: rgb(208, 204, 204);
+        margin-top: 3px;
+    }
+
+    .quote {
+        margin-left: 9em;
+    }
+}
