@@ -22,7 +22,7 @@
 }
 
 .my-services {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .span {
@@ -504,6 +504,7 @@
     
     .my-services {
         font-size: 30px;
+        margin-top: -20px;
     }
     
     .span {
