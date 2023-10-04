@@ -147,8 +147,11 @@
 
 .project-description {
     margin-top: 0.8em;
-    width: 50%;
+    width: 40%;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: -20px
 }
 
 @media (max-width: 769px) { 
@@ -156,6 +159,7 @@
         padding: 4em 0em 4em 2em;
         margin-top: 1em;
         width: 100%;
+        overflow: hidden;
     }
     
     .heading {
@@ -199,7 +203,7 @@
     .see-more img {
         width: 2em;
         margin-top: -8px;
-        margin-left: 6px;
+        margin-left: 15px;
     }
     
     .carousel-box {
@@ -282,8 +286,9 @@
     
     .project-title {
         font-family: 'Syne', sans-serif;
-        margin-top: 18px;
-        font-size: 20px;
+        margin-top: 1.5em;
+        margin-bottom: 12px;
+        font-size: 21px;
         margin-left: -20px;
         width: 50%;
         text-align: center;
@@ -332,7 +337,8 @@
      .mobile-btn {
         display: flex;
         justify-content: center;
-        margin-top: 25px;
+        margin-top: 55px;
+        margin-bottom: -20px;
      }
 
      .carousel-btn-3 img {
