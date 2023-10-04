@@ -18,6 +18,11 @@
       font-size: 16pt;
       display: flex;
     }
+
+    .name img {
+      width: 50px;
+      margin-left: -15px;
+    }
     
     .name h3{
       margin-top: 12px;
