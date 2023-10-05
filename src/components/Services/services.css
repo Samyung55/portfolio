@@ -1,5 +1,5 @@
 .service-bg {
-    background-color: rgb(0, 0, 0);
+    background-color: #262626;
     margin-top: 130px;
     position: relative;
     color: white;
@@ -120,7 +120,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
     cursor: pointer;
   }
 
@@ -189,7 +189,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
     cursor: pointer;
   }
 
@@ -259,7 +259,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
     cursor: pointer;
   }
 
@@ -343,7 +343,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
     cursor: pointer;
   }
 
@@ -423,17 +423,17 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
   }
 .circle-2 {
     position: relative;
     width: 150px; /* Set the width and height to create a circle */
     height: 150px;
-    background-color: #3d3d3d; /* Add background color (optional) */
+    background-color: #fe4519; /* Add background color (optional) */
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
   }
 
   .circle-3 {
@@ -444,7 +444,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
   }
 
 
@@ -482,7 +482,7 @@
 
   @media (max-width: 769px) {
     .service-bg {
-        background-color: black;
+        background-color: #262626;
         margin-top: 10px;
         position: relative;
         color: white;
@@ -553,7 +553,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: -8em;
     margin-left: 16em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
 }
 
 .circle:hover{
@@ -564,7 +564,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: -8em;
     margin-left: 16em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
   }
 
 .card-1:hover {
@@ -640,17 +640,6 @@
 
 }
 
-.circle-2 {
-    position: relative;
-    width: 150px; /* Set the width and height to create a circle */
-    height: 150px;
-    background-color: #fe4519; /* Add background color (optional) */
-    border-radius: 50%; /* Set border-radius to 50% to create a circle */
-    margin-top: em;
-    margin-left: 0em;
-    border: 30px solid rgb(0, 0, 0);
-    cursor: pointer;
-  }
 
 
 .card-2:hover {
@@ -717,7 +706,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
     cursor: pointer;
   }
 
@@ -800,7 +789,7 @@
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
     margin-top: 18.5em;
     margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid #262626;
     cursor: pointer;
   }
 
@@ -877,11 +866,11 @@
     position: relative;
     width: 150px; /* Set the width and height to create a circle */
     height: 150px;
-    background-color: #3d3d3d; /* Add background color (optional) */
+    background-color: #fe4519; /* Add background color (optional) */
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
-    margin-top: 18.5em;
-    margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    margin-top: -8em;
+    margin-left: 16em;
+    border: 30px solid #262626;
   }
 
   .circle-3 {
@@ -890,9 +879,9 @@
     height: 150px;
     background-color: #3d3d3d; /* Add background color (optional) */
     border-radius: 50%; /* Set border-radius to 50% to create a circle */
-    margin-top: 18.5em;
-    margin-left: -8em;
-    border: 30px solid rgb(0, 0, 0);
+    margin-top: -8em;
+    margin-left: 16em;
+    border: 30px solid #262626;
   }
 
 
@@ -922,5 +911,6 @@
     margin-top: 18px;
     margin-left: 20px;
   }
+  
 
 }
