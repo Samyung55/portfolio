@@ -39,7 +39,7 @@ const Services = () => {
                 </div>
             
             </div>
-            <div className="circle">
+            <div className="circle-2">
                 <div className="inner-arrow">
                     <img src="src\assets\arrow-removebg-preview.png" />
                     </div>
@@ -56,7 +56,7 @@ const Services = () => {
                 </div>
             
             </div>
-            <div className="circle">
+            <div className="circle-3">
                 <div className="inner-arrow">
                     <img src="src\assets\arrow-removebg-preview.png" />
                     </div>
