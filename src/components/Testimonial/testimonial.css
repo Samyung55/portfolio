@@ -1,5 +1,5 @@
 .testimonials {
-    background-color: black;
+    background-color: #262626;
     padding: 3em;
     display: flex;
     flex-direction: column;
@@ -168,9 +168,9 @@
 }
 
 .test-btn {
-    background-color: #262626;
+    background-color: #3B3B3B;
     width: 5em;
-    height: 5.1em;
+    height: 5em;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -183,7 +183,7 @@
 .test-btn-2 {
     background-color: #fe4519;
         width: 5em;
-        height: 5.1em;
+        height: 5em;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
