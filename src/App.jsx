@@ -11,6 +11,7 @@ import ProjectProvider from './context/ProjectContext.jsx'
 import ProjectContext from './context/ProjectContext.jsx'
 import Testimonial from './components/Testimonial/Testimonial'
 import Newsletter from './components/Newsletter/Newsletter'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   const CarouselContainer = () => {
@@ -44,6 +45,7 @@ const App = () => {
         <CarouselContainer />
         <TestimonialContainer />
         <Newsletter />
+        <Footer />
       </>
   );
 }
