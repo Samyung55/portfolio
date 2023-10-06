@@ -258,8 +258,15 @@ useEffect(() => {
 >
   <CarouselContainer />
 </motion.div>
+<motion.div
+  ref={testimonialRef}
+  initial={{ opacity: 0, y: 50 }}
+  animate={testimonialControls}
+  className="testimonial-container"
+>
+  <TestimonialContainer />
+</motion.div>
 
-        <TestimonialContainer />
         <Newsletter />
         <Footer />
       </>
