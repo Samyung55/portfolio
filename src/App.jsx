@@ -274,8 +274,15 @@ useEffect(() => {
 >
   <Newsletter />
 </motion.div>
+<motion.div
+  ref={footerRef}
+  initial={{ opacity: 0, y: 50 }}
+  animate={footerControls}
+  className="footer-container"
+>
+  <Footer />
+</motion.div>
 
-        <Footer />
       </>
   );
 }
