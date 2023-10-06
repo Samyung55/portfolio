@@ -165,6 +165,25 @@ useEffect(() => {
   }
 }, [testimonialControls, testimonialInView]);
 
+const newsletterControls = useAnimation();
+const [newsletterRef, newsletterInView] = useInView();
+
+useEffect(() => {
+  if (newsletterInView) {
+    newsletterControls.start({
+      opacity: 1,
+      y: 0,
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  } else {
+    newsletterControls.start({
+      opacity: 0,
+      y: 50,
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  }
+}, [newsletterControls, newsletterInView]);
+
 
   return (
       <>
