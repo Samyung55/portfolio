@@ -146,6 +146,24 @@ useEffect(() => {
   }
 }, [carouselControls, carouselInView]);
 
+const testimonialControls = useAnimation();
+const [testimonialRef, testimonialInView] = useInView();
+
+useEffect(() => {
+  if (testimonialInView) {
+    testimonialControls.start({
+      opacity: 1,
+      y: 0,
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  } else {
+    testimonialControls.start({
+      opacity: 0,
+      y: 50,
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  }
+}, [testimonialControls, testimonialInView]);
 
 
   return (
