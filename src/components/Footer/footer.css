@@ -151,7 +151,7 @@
 }
 
 .block-3 {
-    width: 25%;
+    width: 30%;
     margin-top: 25px;
     margin-left: 120px;
 }
@@ -199,11 +199,13 @@
     border-bottom-right-radius: 10px;
     background-color: #fe4519;
     border: none;
+    cursor: pointer;
 }
 
 .block-4 button img {
-    width: 2em;
+    width: 1em;
     height: 1em;
+    margin-top: -1px;
 }
 
 .copyrights {
