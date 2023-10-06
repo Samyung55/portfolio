@@ -266,8 +266,15 @@ useEffect(() => {
 >
   <TestimonialContainer />
 </motion.div>
+<motion.div
+  ref={newsletterRef}
+  initial={{ opacity: 0, y: 50 }}
+  animate={newsletterControls}
+  className="newsletter-container"
+>
+  <Newsletter />
+</motion.div>
 
-        <Newsletter />
         <Footer />
       </>
   );
