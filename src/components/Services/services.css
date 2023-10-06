@@ -1,6 +1,6 @@
 .service-bg {
     background-color: #262626;
-    margin-top: 130px;
+    margin-top: 98px;
     position: relative;
     color: white;
     padding: 4em 4em;
@@ -483,7 +483,7 @@
   @media (max-width: 769px) {
     .service-bg {
         background-color: #262626;
-        margin-top: 10px;
+        margin-top: -100px;
         position: relative;
         color: white;
         padding: 4em 4em;
