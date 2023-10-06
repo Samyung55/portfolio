@@ -61,6 +61,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.email-box input:focus {
+    outline: none;
+}
+
 .email-box input::placeholder {
     color: rgba(0, 0, 0, 0.759);
     font-family: 'Open Sans', sans-serif;
@@ -78,6 +82,7 @@
     -moz-border-radius: 4em;
     -ms-border-radius: 4em;
     -o-border-radius: 4em;
+    cursor: pointer;
 }
 
 .achievements {
