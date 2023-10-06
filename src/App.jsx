@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
+import Work from './components/Work/Work'
+import Hire from './components/Hire/Hire'
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
   <Navbar />
   <Hero />
   <Services />
+  <Work />
+  <Hire/>
   </>
   )
 }
