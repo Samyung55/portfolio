@@ -193,6 +193,10 @@
     background-color: white;
 }
 
+.block-4 input:focus {
+    outline: none;
+}
+
 .block-4 button {
     padding: 1em;
     border-top-right-radius: 10px;
