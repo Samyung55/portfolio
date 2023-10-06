@@ -21,16 +21,16 @@ const Footer = () => {
                 </p>
                 <div className="social-btn">
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\icons8-email-64.png" alt="behance"/></a>
+                        <a href="#"><img src="src\assets\socials\icons8-behance-32.png" alt="behance"/></a>
                     </div>
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\icons8-email-64.png" alt="github"/></a>
+                        <a href="#"><img src="src\assets\socials\icons8-github-64.png" alt="github"/></a>
                     </div>
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\icons8-email-64.png" alt="instagram"/></a>
+                        <a href="#"><img src="src\assets\socials\icons8-instagram-50 (1).png" alt="instagram"/></a>
                     </div>
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\icons8-email-64.png" alt="twitter"/></a>
+                        <a href="#"><img src="src\assets\socials\icons8-twitter-50.png" alt="twitter"/></a>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ const Footer = () => {
                 <h3>Get the latest information</h3>
                 <div>
                     <input type="email" placeholder="Email address" />
-                    <button><img src="src\assets\arrow-up-right-svgrepo-com.svg" alt="icon-btn" /></button>
+                    <button><img src="src\assets\socials\icons8-send-48.png" alt="icon-btn" /></button>
                 </div>
             </div>
         </div>
