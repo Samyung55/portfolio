@@ -184,6 +184,25 @@ useEffect(() => {
   }
 }, [newsletterControls, newsletterInView]);
 
+const footerControls = useAnimation();
+const [footerRef, footerInView] = useInView();
+
+useEffect(() => {
+  if (footerInView) {
+    footerControls.start({
+      opacity: 1,
+      y: 0,
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  } else {
+    footerControls.start({
+      opacity: 0,
+      y: 50,
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  }
+}, [footerControls, footerInView]);
+
 
   return (
       <>
