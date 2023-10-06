@@ -5,6 +5,8 @@
     align-items: center;
     text-align: center;
     margin-top: 50px;
+    overflow: hidden;
+    height: 38em;
 }
 
 .greeting {
@@ -31,7 +33,7 @@ h1 {
     background-color: aliceblue;
     justify-content: center;
     align-items: center;
-    margin-top: -17em;
+    margin-top: -19em;
     margin-left: -15px;
     padding: 3px;
     border-radius: 25px;
@@ -148,7 +150,7 @@ h1 {
     }
 
     .link-box {
-        margin-top: -9em;
+        margin-top: -8em;
     }
 
 
