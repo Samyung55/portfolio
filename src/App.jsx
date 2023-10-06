@@ -109,6 +109,44 @@ useEffect(() => {
   }
 }, [workControls, workInView]);
 
+const hireControls = useAnimation();
+const [hireRef, hireInView] = useInView();
+
+useEffect(() => {
+  if (hireInView) {
+    hireControls.start({
+      scale: 1.1, // Scale up the button
+      backgroundColor: '#ff5722', // Change the button color
+      transition: { duration: 0.5, yoyo: Infinity }, // Bounce animation
+    });
+  } else {
+    hireControls.start({
+      scale: 1,
+      backgroundColor: '#007bff', // Reset the button color
+    });
+  }
+}, [hireControls, hireInView]);
+
+const carouselControls = useAnimation();
+const [carouselRef, carouselInView] = useInView();
+
+useEffect(() => {
+  if (carouselInView) {
+    carouselControls.start({
+      opacity: 1,
+      x: 0,
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  } else {
+    carouselControls.start({
+      opacity: 0,
+      x: -100, // Slide content to the left when out of view
+      transition: { duration: 1, ease: 'easeOut' },
+    });
+  }
+}, [carouselControls, carouselInView]);
+
+
 
   return (
       <>
@@ -140,9 +178,31 @@ useEffect(() => {
       >
         <Services />
       </motion.div>
-        <Work />
+      <motion.div
+  ref={workRef}
+  initial={{ opacity: 0, y: 50 }}
+  animate={workControls}
+  className="work-container"
+>
+  <Work />
+</motion.div>
+<motion.div
+  ref={hireRef}
+  initial={{ scale: 1, backgroundColor: '#007bff' }}
+  animate={hireControls}
+  className="hire-container"
+>
         <Hire />
-        <CarouselContainer />
+    </motion.div>
+    <motion.div
+  ref={carouselRef}
+  initial={{ opacity: 0, x: -100 }}
+  animate={carouselControls}
+  className="carousel-container"
+>
+  <CarouselContainer />
+</motion.div>
+
         <TestimonialContainer />
         <Newsletter />
         <Footer />
