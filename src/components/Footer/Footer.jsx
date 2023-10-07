@@ -27,10 +27,10 @@ const Footer = () => {
                         <a href="#"><img src="src\assets\socials\icons8-github-64.png" alt="github"/></a>
                     </div>
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\socials\icons8-instagram-50 (1).png" alt="instagram"/></a>
+                        <a href="#"><img src="src\assets\socials\icons8-instagram-50 (2).png" alt="instagram"/></a>
                     </div>
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\socials\icons8-twitter-50.png" alt="twitter"/></a>
+                        <a href="#"><img src="src\assets\socials\icons8-twitter-50 (1).png" alt="twitter"/></a>
                     </div>
                 </div>
             </div>
