@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
 import "./carousel.css";
+
 
 const Carousel = ({ projects }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const controls = useAnimation();
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex === projects.length - 1 ? 0 : prevIndex + 1));
@@ -32,6 +35,42 @@ const Carousel = ({ projects }) => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  // Create animation variants
+  const slideVariants = {
+    enter: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.5 },
+    },
+    exit: {
+      opacity: 0,
+      x: 100,
+      transition: { duration: 0.5 },
+    },
+  };
+
+  const imageVariants = {
+    enter: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.5 },
+    },
+    exit: {
+      opacity: 0,
+      scale: 0.8,
+      transition: { duration: 0.5 },
+    },
+  };
+
+  // Animate when currentIndex changes
+  useEffect(() => {
+    controls.start("exit"); // Start exit animation
+    setTimeout(() => {
+      controls.start("enter"); // Start enter animation after a delay
+    }, 500);
+  }, [currentIndex, controls]);
+
 
   return (
     <div className="carousel">
