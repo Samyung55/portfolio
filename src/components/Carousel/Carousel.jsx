@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import "./carousel.css";
 
 
@@ -36,40 +36,7 @@ const Carousel = ({ projects }) => {
     };
   }, []);
 
-  // Create animation variants
-  const slideVariants = {
-    enter: {
-      opacity: 1,
-      x: 0,
-      transition: { duration: 0.5 },
-    },
-    exit: {
-      opacity: 0,
-      x: 100,
-      transition: { duration: 0.5 },
-    },
-  };
-
-  const imageVariants = {
-    enter: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.5 },
-    },
-    exit: {
-      opacity: 0,
-      scale: 0.8,
-      transition: { duration: 0.5 },
-    },
-  };
-
-  // Animate when currentIndex changes
-  useEffect(() => {
-    controls.start("exit"); // Start exit animation
-    setTimeout(() => {
-      controls.start("enter"); // Start enter animation after a delay
-    }, 500);
-  }, [currentIndex, controls]);
+ 
 
 
   return (
@@ -81,29 +48,83 @@ const Carousel = ({ projects }) => {
       <div className="carousel-box">
         <button className="carousel-btn" onClick={prevSlide}><img src="src\assets\arrow-sm-left-svgrepo-com.svg" alt="Previous" /></button>
         
-        <div className="carousel-container">
-          <div className="slide">
+        <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          initial={{ x: isMobile ? 0 : 20, opacity: 0.3 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: isMobile ? 0 : 20, opacity: 0 }}
+          transition={{ duration: 0.7 }}
+         className="carousel-container">
+          
+        <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          initial={{ x: isMobile ? 0 : 20, opacity: 0.3 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: isMobile ? 0 : 20, opacity: 0 }}
+          transition={{ duration: 0.7 }}
+         className="slide">
             <img src={currentProject.images[0]} alt={`Slide ${currentIndex}`} />
-          </div>
-          <div className="slide">
+          </motion.div>
+          </AnimatePresence>
+
+          <AnimatePresence mode="wait">
+          <motion.div
+          key={currentIndex}
+          initial={{ x: isMobile ? 0 : 20, opacity: 0.3 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: isMobile ? 0 : 20, opacity: 0 }}
+          transition={{ duration: 0.7 }} className="slide">
             <img src={currentProject.images[1]} alt={`Slide ${currentIndex + 1}`} />
-          </div>
-        </div>
+            </motion.div>
+          </AnimatePresence>
+
+          </motion.div>
+          </AnimatePresence>
          <button className="carousel-btn-2" onClick={nextSlide}><img src="src\assets\arrow-sm-right-svgrepo-com.svg" alt="Next" /></button>
        
       </div>
       <div className="project-info">
-        <div className="tags">
+        {/* tags */}
+
+        <AnimatePresence mode="wait">
+          <motion.div
+          key={currentIndex}
+          initial={{ x: -20, opacity: 0.3 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ x: isMobile ? 0 : 20, opacity: 0 }}
+          transition={{ duration: 0.7 }} className="tags">
           <h3>{currentProject.tags[0]}</h3>
           <h3>{currentProject.tags[1]}</h3>
           <h3>{currentProject.tags[2]}</h3>
-        </div>
-        <div className="project-title">
+          </motion.div>
+          </AnimatePresence>
+
+          <AnimatePresence mode="wait">
+        <motion.div className="project-title"
+        key={currentIndex}
+        initial={{  x: -20, opacity: 0.3 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ x: isMobile ? 0 : -20, opacity: 0 }}
+        transition={{ duration: 0.7 }}
+        >
           {currentProject.name}
-        </div>
-        <p className="project-description">
+          </motion.div>
+          </AnimatePresence>
+
+          <AnimatePresence mode="wait">
+        <motion.p className="project-description"
+        key={currentIndex}
+        initial={{ x: -20, opacity: 0.3 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ x: isMobile ? 0 : -20, opacity: 0 }}
+        transition={{ duration: 0.7 }}
+        >
           {currentProject.description}
-        </p>
+          </motion.p>
+          </AnimatePresence>
+          
       </div>
       <div className="mobile-btn">
       {isMobile && ( // Render buttons only on mobile
