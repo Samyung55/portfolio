@@ -17,6 +17,7 @@ import { useInView } from 'react-intersection-observer';
 
 
 const App = () => {
+  
   const CarouselContainer = () => {
     const { project } = useContext(ProjectContext);
   
@@ -205,10 +206,10 @@ useEffect(() => {
 
 
   return (
-      <>
+      <div className='app'>
         <motion.div
         ref={navbarRef}
-        initial={{ y: -50, opacity: 0 }}
+        initial={{ y: -30, opacity: 0 }}
         animate={navbarControls}
         className="navbar-container"
         >
@@ -258,14 +259,7 @@ useEffect(() => {
 >
   <CarouselContainer />
 </motion.div>
-<motion.div
-  ref={testimonialRef}
-  initial={{ opacity: 0, y: 50 }}
-  animate={testimonialControls}
-  className="testimonial-container"
->
   <TestimonialContainer />
-</motion.div>
 <motion.div
   ref={newsletterRef}
   initial={{ opacity: 0, y: 50 }}
@@ -283,7 +277,7 @@ useEffect(() => {
   <Footer />
 </motion.div>
 
-      </>
+      </div>
   );
 }
 
