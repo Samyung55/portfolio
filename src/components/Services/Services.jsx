@@ -35,7 +35,7 @@ const Services = () => {
 
                 <div className="box1"></div>
                 <div className="box2"></div>
-                <div className="box3"><img src="src\assets\phone.png" className="phone"/>
+                <div className="box3"><img src="src\assets\projects\sa2.png" className="phone"/>
                 </div>
             
             </div>
@@ -52,7 +52,7 @@ const Services = () => {
 
                 <div className="box1"></div>
                 <div className="box2"></div>
-                <div className="box3"><img src="src\assets\phone.png" className="phone"/>
+                <div className="box3"><img src="src\assets\projects\est.png" className="phone"/>
                 </div>
             
             </div>
