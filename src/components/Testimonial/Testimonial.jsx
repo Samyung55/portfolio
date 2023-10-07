@@ -103,7 +103,7 @@ const Testimonial = ({ clients }) => {
           key={currentIndex}
           initial={{ x: isMobile ? 0 : 20, opacity: 0.3 }}
           animate={{ x: 0, opacity: 1 }}
-          exit={{ x: isMobile ? 0 : -20, opacity: 0.5 }}
+          exit={{ x: isMobile ? 0 : -20, opacity: 0 }}
           transition={{ duration: 0.7 }}
         >
         <div className="test-array-2">
