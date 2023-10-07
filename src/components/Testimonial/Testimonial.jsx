@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import "./testimonial.css"
 
 const Testimonial = ({ clients }) => {
@@ -44,17 +45,35 @@ const Testimonial = ({ clients }) => {
     return (
     <div className="testimonials">
         <div className="test-head">
-            <h1 className="testimonial">
-                Testimonials that Speak to <span className="result">My Results</span> 
-            </h1>
-            <p className="test-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                eligendi, molestias itaque, vel nihil aliquid aspernatur
-                corrupti incidunt id doloremque est vitae consectetur?
-            </p>
-        </div>
+      <motion.h1
+        className="testimonial"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+      >
+        Testimonials that Speak to <span className="result">My Results</span>
+      </motion.h1>
+      <motion.p
+        className="test-p"
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.7 }}
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. eligendi,
+        molestias itaque, vel nihil aliquid aspernatur corrupti incidunt id
+        doloremque est vitae consectetur?
+      </motion.p>
+    </div>
         <div className="testing-array">
         
+        <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          initial={{ x: isMobile ? 0 : -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: isMobile ? 0 : -50, opacity: 0 }}
+          transition={{ duration: 0.7 }}
+        >
         <div className="test-array-1">
             <div className="stars">
             {prevClient.starimg}
@@ -76,7 +95,17 @@ const Testimonial = ({ clients }) => {
                 </div>
             </div>
         </div>
-
+        </motion.div>
+        </AnimatePresence>
+        
+        <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          initial={{ x: isMobile ? 0 : 20, opacity: 0.3 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: isMobile ? 0 : -20, opacity: 0.5 }}
+          transition={{ duration: 0.7 }}
+        >
         <div className="test-array-2">
             <div className="stars">
             {currentClient.starimg}
@@ -98,7 +127,17 @@ const Testimonial = ({ clients }) => {
                 </div>
             </div>
         </div>
-        
+        </motion.div>
+      </AnimatePresence>
+
+      <AnimatePresence mode="wait">
+  <motion.div
+    key={prevIndex}
+    initial={{ x: isMobile ? 0 : 200, opacity: 0 }}
+    animate={{ x: 0, opacity: 1 }}
+    exit={{ x: isMobile ? 0 : 20, opacity: 0 }}
+    transition={{ duration: 0.7 }}
+  >
         <div className="test-array-3">
             <div className="stars">
             {nextClient.starimg}
@@ -120,14 +159,27 @@ const Testimonial = ({ clients }) => {
                 </div>
             </div>
         </div>
-
+        </motion.div>
+        </AnimatePresence>
         </div>
         <div className="test-buttons">
-        <button className="test-btn" onClick={prevSlide}><img src="src\assets\arrow-sm-left-svgrepo-com.svg" alt="Previous" /></button>
-        <button className="test-btn-2" onClick={nextSlide}><img src="src\assets\arrow-sm-right-svgrepo-com.svg" alt="Next" /></button>
+        <motion.button 
+        className="test-btn"
+        onClick={prevSlide}
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.7 }}><img src="src\assets\arrow-sm-left-svgrepo-com.svg" alt="Previous" /></motion.button>
+        <motion.button className="test-btn-2" onClick={nextSlide}
+        initial={{ opacity: 0, x: 20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.7 }}
+        ><img src="src\assets\arrow-sm-right-svgrepo-com.svg" alt="Next" /></motion.button>
         </div>
     </div>
     )
 }
 
 export default Testimonial 
+
+
+        
