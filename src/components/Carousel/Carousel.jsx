@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import "./carousel.css";
+import { Link } from "react-router-dom";
 
 
 const Carousel = ({ projects }) => {
@@ -101,7 +102,8 @@ const Carousel = ({ projects }) => {
           </motion.div>
           </AnimatePresence>
 
-          <AnimatePresence mode="wait">
+            <AnimatePresence mode="wait">
+           
         <motion.div className="project-title"
         key={currentIndex}
         initial={{  x: -20, opacity: 0.3 }}
@@ -109,10 +111,13 @@ const Carousel = ({ projects }) => {
         exit={{ x: isMobile ? 0 : -20, opacity: 0 }}
         transition={{ duration: 0.7 }}
         >
+          <a href={currentProject.link}> 
           {currentProject.name}
+          </a>
           </motion.div>
+          
           </AnimatePresence>
-
+          
           <AnimatePresence mode="wait">
         <motion.p className="project-description"
         key={currentIndex}
