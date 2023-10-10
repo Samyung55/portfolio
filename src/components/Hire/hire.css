@@ -79,8 +79,8 @@
 
 .hire-btn {
     margin-top: 2.5em;
-    padding: 13px 10px;
-    width: 28%;
+    padding: 11px 10px;
+    width: 25%;
     font-weight: bol;
     font-size: 20px;
     border-color: #fe4519;
@@ -90,6 +90,24 @@
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+    cursor: pointer;
+}
+
+.hire-btn:hover {
+    margin-top: 2.5em;
+    padding: 13px 10px;
+    width: 25%;
+    font-weight: bol;
+    font-size: 20px;
+    border: none;
+    background-color: #fe4519;
+    color: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
 }
 
 @media (max-width: 769px) { 
