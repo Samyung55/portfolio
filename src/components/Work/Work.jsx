@@ -9,15 +9,15 @@ const Work = () => {
                  <div className="work-1">
                     <div className="company-1">
                     <h2 className="title-1">
-                        Self-Employed, Lagos
+                        Self-Employed
                     </h2>
-                    <p className="years">Sep 2020 - July 2023</p>
+                    <p className="years">May 2023 - Oct 2023</p>
                     </div>
                     <div className="intersection1">
                     <div className="intersection2"></div></div>
                     <div className="position-1">
                     <h2 className="title-2">
-                       Visual Designer
+                       MERN Stack Developer
                     </h2>
                     <p className="years">Lorem ipsum dolor sit amet consectetur 
                     <br />Doloribus suscipit, odio sed tenetur molestiae neque recusandae adipisci.
@@ -28,15 +28,15 @@ const Work = () => {
                 <div className="work-1">
                     <div className="company-1">
                     <h2 className="title-1">
-                    Insightancer
+                    Juplam Group
                     </h2>
-                    <p className="years">Aug 2016 - July 2020</p>
+                    <p className="years">Aug 2021 - May 2023</p>
                     </div>
                     <div className="intersection1">
                     <div className="intersection4"></div></div>
                     <div className="position-1">
                     <h2 className="title-2">
-                    UI/UX Designer
+                    Developer / Director of ICT
                     </h2>
                     <p className="years">Lorem ipsum dolor sit amet consectetur 
                     <br />Doloribus suscipit, odio sed tenetur molestiae neque recusandae adipisci.
@@ -48,15 +48,15 @@ const Work = () => {
                 <div className="work-1">
                     <div className="company-1">
                     <h2 className="title-1">
-                    KG Design Studio
+                    Dherbalbody
                     </h2>
-                    <p className="years">Aug 2016 - July 2020</p>
+                    <p className="years">Aug 2019 - July 2021</p>
                     </div>
                     <div className="intersection1">
                     <div className="intersection2"></div></div>
                     <div className="position-1">
                     <h2 className="title-2">
-                    Web Designer
+                    Web/Product Designer
                     </h2>
                     <p className="years">Lorem ipsum dolor sit amet consectetur 
                     <br />Doloribus suscipit, odio sed tenetur molestiae neque recusandae adipisci.
