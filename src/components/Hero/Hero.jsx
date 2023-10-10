@@ -77,7 +77,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="serve"
         >
-          450+
+          350+
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: -20 }}
