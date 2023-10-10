@@ -16,18 +16,17 @@ const Footer = () => {
                     <img src="src\assets\s.png" />
                     <h2>Sam</h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Fuga enim vel ipsum? Mollitia consequuntur nisi blanditiis magnam odio at quidem et, 
+                <p>I'm dedicated to delivering excellence in every project. Your satisfaction is my priority. Don't hesitate to reach out and experience top-notch service. Let's turn your ideas into reality!
                 </p>
                 <div className="social-btn">
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\socials\icons8-behance-32.png" alt="behance"/></a>
+                        <a href="https://www.behance.net/yungmdl"><img src="src\assets\socials\icons8-behance-32.png" alt="behance"/></a>
                     </div>
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\socials\icons8-github-64.png" alt="github"/></a>
+                        <a href="https://github.com/Samyung55"><img src="src\assets\socials\icons8-github-64.png" alt="github"/></a>
                     </div>
                     <div className="icon-bg">
-                        <a href="#"><img src="src\assets\socials\icons8-instagram-50 (2).png" alt="instagram"/></a>
+                        <a href="https://www.instagram.com/yungofficial5/"><img src="src\assets\socials\icons8-instagram-50 (2).png" alt="instagram"/></a>
                     </div>
                     <div className="icon-bg">
                         <a href="#"><img src="src\assets\socials\icons8-twitter-50 (1).png" alt="twitter"/></a>
