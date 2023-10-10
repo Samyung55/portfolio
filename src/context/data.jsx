@@ -5,28 +5,33 @@ import est from '../assets/projects/est.png'
 import mobile1 from '../assets/projects/mobile1.png'
 import mobile from '../assets/projects/mobile.png'
 import star from "../assets/icons8-star-64.png"
+import express1 from "../assets/projects/express1.png"
+import express2 from "../assets/projects/express2.png"
 
 export const ProjectData = [
     {
         id: 1,
-        tags: ['UI/UX Design', 'Landing Page', 'WireFrame'],
-        name: 'Food Express - Food Delivery Solution',
+        tags: ['UI/UX Design', 'E-commerce', 'WireFrame'],
+        name: 'Food Swift - Food Delivery Solution',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
-        images: [phone, development]
+        images: [express1, express2],
+        link: "www.google.com"
     },
     {
         id: 2,
         tags: ['UI/UX Design', 'Web Application', 'Front-End'],
         name: 'Estating - Find Your Dream Home',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
-        images: [est, development]
+        images: [est, development],
+        link: "www.google.com"
     },
     {
         id: 3,
         tags: ['React-Native', 'Mobile Application', 'Full-Stack'],
         name: 'Crypto-Exchange Mobile App',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut reprehenderit distinctio quaerat quae mollitia odio minima labore nostrum recusandae magni assumenda fugiat ullam commodi magnam atque, doloremque molestiae dolores?',
-        images: [mobile, mobile1]
+        images: [mobile, mobile1],
+        link: "www.google.com"
     }
 ];
 
