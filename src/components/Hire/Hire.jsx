@@ -13,19 +13,21 @@ const Hire = () => {
                     for Your Next Projects? 
                 </h2>
                 <p className="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>
-                    eligendi, molestias itaque, vel nihil aliquid aspernatur <br/>
-                    corrupti incidunt id doloremque est vitae consectetur?<br/>
+                I bring a proven track record of delivering results. 
+                I thrive on solving complex challenges and am constantly adapting to embrace new technologies and innovations. 
+                As an effective team player and communicator, 
+                I'm ready to collaborate with you to create something extraordinary. 
+                Let's work together to achieve your goals.<br/>
                 </p>
                 <div className="achieve">
                     <div className="complete-1">
-                    <h2 className="completion">600+</h2>
+                    <h2 className="completion">120+</h2>
                     <p className="pro-completed">
                         Project Completed
                     </p>
                     </div>
                     <div className="complete-2">
-                        <h2 className="completion">50+</h2>
+                        <h2 className="completion">25+</h2>
                         <p className="industry">Industry Covered</p>
                     </div>
                 </div>
