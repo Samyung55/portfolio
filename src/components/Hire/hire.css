@@ -12,8 +12,8 @@
 }
 
 .img-box {
-    width: 35%;
-    height: 32em;
+    width: 30%;
+    height: 28em;
     background-color: #fe4519;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -40,7 +40,7 @@
 .why {
     font-family: 'Syne', sans-serif;
     margin-bottom: 0.6em;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: -em;
 }
 
@@ -52,8 +52,9 @@
 
 .description {
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 26px;
+    color: #4b4b4b;
 }
 
 .achieve {
@@ -64,9 +65,10 @@
     margin-right: 5em;
 }
 
-.complete-1, .complete-2 p{
+.complete-1 p, .complete-2 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
+    color: #4b4b4b;
 }
 
 .completion {
