@@ -78,9 +78,10 @@
 }
 
 .my-sam img {
-    width: 3em;
+    width: 3.5em;
     margin-left: -9px;
     margin-bottom: 16px;
+    margin-right: -5px;
 }
 
 .my-sam h2 {
