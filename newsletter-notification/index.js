@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 const transporter = nodemailer.createTransport({
-  service: "Gmail",
+  service: "gmail",
   auth: {
     user: "yungdml31@gmail.com",
     pass: "Success5584", 
@@ -29,13 +29,14 @@ app.post("/send-notification", (req, res) => {
   // Send the email
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.error(error);
+      console.error("Error sending email:", error);
       res.status(500).json({ success: false, error: "Email not sent" });
     } else {
       console.log("Email sent: " + info.response);
       res.status(200).json({ success: true, message: "Email sent" });
     }
   });
+  
 });
 
 app.listen(port, () => {
