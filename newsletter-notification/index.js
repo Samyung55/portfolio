@@ -11,8 +11,8 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
   service: "Gmail",
   auth: {
-    user: "samyung05@gmail@gmail.com",
-    pass: "Success5584123.", 
+    user: "yungdml31@gmail.com",
+    pass: "Success5584", 
   },
 });
 
@@ -23,7 +23,7 @@ app.post("/send-notification", (req, res) => {
   // Email content
   const mailOptions = {
     from: email,
-    to: "samyung05@gmail.com", // Your email address
+    to: "yungdml31@gmail.com", // Your email address
     subject: "New Newsletter Subscription",
     text: `A new user subscribed with the email address: ${email}`,
   };
