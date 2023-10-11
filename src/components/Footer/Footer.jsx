@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./footer.css"
 
 const Footer = () => {
@@ -84,19 +84,26 @@ const Footer = () => {
             <div className="block-4">
                 <h3>Get the latest information</h3>
                 <div>
-                    <input type="email" placeholder="Email address" />
-                    <button><img src="src\assets\socials\icons8-send-48.png" alt="icon-btn" /></button>
+                    <input
+                    type="email"
+                    placeholder="Email address"
+                    value={email}
+                    onChange={handleEmailChange}
+                    />
+                    <button onClick={handleSubscribe}>
+                    <img src="src/assets/socials/icons8-send-48.png" alt="icon-btn" />
+                    </button>
+                </div>
+        </div>
+            </div>
+            <div className="bottom-bar">
+                    <div className="footer-bar"></div>
+                    <div className="copyrights">
+                        <p>Copyright &copy; 2023 <span> Sam. </span> All Rights Reserved</p>
+                        <p className="terms">User Terms & Conditions | Privacy Policy</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div className="bottom-bar">
-                <div className="footer-bar"></div>
-                <div className="copyrights">
-                    <p>Copyright &copy; 2023 <span> Sam. </span> All Rights Reserved</p>
-                    <p className="terms">User Terms & Conditions | Privacy Policy</p>
-                </div>
-            </div>
-        </div>
     )
 }
 
