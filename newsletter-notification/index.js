@@ -7,7 +7,6 @@ const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-// Create a nodemailer transporter
 const transporter = nodemailer.createTransport({
   service: "Gmail",
   auth: {
@@ -16,13 +15,12 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-// Define a route for handling email notifications
 app.post("/send-notification", (req, res) => {
   const { email } = req.body;
 
   // Email content
   const mailOptions = {
-    from: email,
+    from: `${email}`,
     to: "yungdml31@gmail.com", // Your email address
     subject: "New Newsletter Subscription",
     text: `A new user subscribed with the email address: ${email}`,
