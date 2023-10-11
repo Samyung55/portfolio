@@ -59,9 +59,9 @@ const Testimonial = ({ clients }) => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.7 }}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. eligendi,
-        molestias itaque, vel nihil aliquid aspernatur corrupti incidunt id
-        doloremque est vitae consectetur?
+        Read what my clients have to say about their experiences working with me. 
+        Their words speak to the quality, 
+        innovation, and dedication I bring to every development project. 
       </motion.p>
     </div>
         <div className="testing-array">
