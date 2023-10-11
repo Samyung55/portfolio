@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./newsletter.css";
 
@@ -75,12 +75,15 @@ const Newsletter = () => {
           type="email"
           placeholder="Enter Email Address"
           required
+          value={email}
+          onChange={handleEmailChange}
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 1.2 }}
         />
         <motion.button
           className="booking"
+          onClick={handleBookCall}
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 1.4 }}
