@@ -2,6 +2,34 @@ import React from "react";
 import "./footer.css"
 
 const Footer = () => {
+    const [email, setEmail] = useState("");
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubscribe = () => {
+    fetch("/send-notification", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.success) {
+          alert("Notification email sent successfully!");
+        } else {
+          alert("Error sending notification email.");
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+        alert("Error sending notification email.");
+      });
+  };
+
     return (
         <div className="footer">
             <div className="ft-heading">
