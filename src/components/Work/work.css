@@ -98,13 +98,24 @@
     margin-top: 3px;
 }
 
-.inter-bar {
+.inter-bar-1 {
     position: relative;
-    height: 8em;
+    height: 19em;
     width: 0.1em;
     align-self: center;
-    margin-left: -8.4em;
-    margin-top: -8.4em;
+    margin-left: -9.5em;
+    margin-top: -15.8em;
+    border: 2px black dotted;
+    border-width: 2px;
+}
+
+.inter-bar-2 {
+    position: relative;
+    height: 19em;
+    width: 0.1em;
+    align-self: center;
+    margin-left: -9.5em;
+    margin-top: -17em;
     border: 2px black dotted;
     border-width: 2px;
 }
@@ -219,13 +230,25 @@
     }
 
 
-    .inter-bar {
+    .inter-bar-1 {
         position: relative;
-        height: 13em;
+        height: 24em;
         width: 0.1em;
         align-self: center;
         margin-left: -25em;
-        margin-top: -14em;
+        margin-top: -23.5em;
+        border: 2px black dotted;
+        border-width: 2px;
+        margin-bottom: -2px;
+    }
+
+    .inter-bar-2 {
+        position: relative;
+        height: 24em;
+        width: 0.1em;
+        align-self: center;
+        margin-left: -25em;
+        margin-top: -26em;
         border: 2px black dotted;
         border-width: 2px;
         margin-bottom: -2px;
