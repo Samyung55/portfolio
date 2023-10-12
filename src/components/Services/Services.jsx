@@ -47,12 +47,12 @@ const Services = () => {
 
 
             <div className="card-3">
-            <h2 className="box-head">Web Development</h2>
+            <h2 className="box-head">App Development</h2>
             <div className="card-bar"></div>
 
                 <div className="box1"></div>
                 <div className="box2"></div>
-                <div className="box3"><img src="src\assets\projects\est.png" className="phone"/>
+                <div className="box3"><img src="src\assets\projects\fruit-1.png" className="phone"/>
                 </div>
             
             </div>
