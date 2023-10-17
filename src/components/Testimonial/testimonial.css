@@ -152,10 +152,11 @@
     font-size: 14px;
     color: rgb(208, 204, 204);
     margin-top: 7px;
+    width: 15em;
 }
 
 .test-quote {
-    margin-left: 25em;
+    margin-left: 20em;
     width: 30em;
 }
 
