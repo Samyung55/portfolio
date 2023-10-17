@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./hero.css";
+import { Link } from 'react-router-dom';
+import sam from "../../assets/sam.png"
+import quote from "../../assets/quote-left-svgrepo-com.svg"
+import star from "../../assets/icons8-star-64.png"
 
 const Hero = () => {
   const jobTitles = [
@@ -20,7 +24,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="hero">
+      <div id="home" className="hero">
       <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,12 +49,16 @@ const Hero = () => {
         </h1>
 
         <div className="">
-          <img src="src\assets\sam.png" alt="sam-yung" className="pic" />
+          <img src={sam} alt="sam-yung" className="pic" />
           <div className="pic-bg"></div>
         </div>
         <div className="link-box">
+        <a href="https://github.com/Samyung55">
           <button className="portfolio">Portfilio </button>
+          </a>
+          <a href="https://www.instagram.com/yungofficial5">
           <button className="hire-me">Hire Me</button>
+          </a>
         </div>
       </div>
       <div className="hero-texts">
@@ -60,7 +68,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="quote"
         >
-          <img src="src\assets\quote-left-svgrepo-com.svg" />
+          <img src={quote} />
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: -20 }}
@@ -93,31 +101,31 @@ const Hero = () => {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          src="src\assets\icons8-star-64.png"
+          src={star}
         />
         <motion.img
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          src="src\assets\icons8-star-64.png"
+          src={star}
         />
         <motion.img
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          src="src\assets\icons8-star-64.png"
+          src={star}
         />
         <motion.img
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          src="src\assets\icons8-star-64.png"
+          src={star}
         />
         <motion.img
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          src="src\assets\icons8-star-64.png"
+          src={star}
         />
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
