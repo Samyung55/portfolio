@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import "./carousel.css";
 import { Link } from "react-router-dom";
+import arrowLeft from "../../assets/arrow-sm-left-svgrepo-com.svg"
+import arrowRight from "../../assets/arrow-sm-right-svgrepo-com.svg"
+import arrowUp from "../../assets/arrow-up-right-svgrepo-com.svg"
 
 
 const Carousel = ({ projects }) => {
@@ -37,17 +40,19 @@ const Carousel = ({ projects }) => {
     };
   }, []);
 
- 
+  function openGithub() {
+    window.location.href = 'https://www.github.com/Samyung55';
+  }
 
 
   return (
-    <div className="carousel">
+    <div id="projects" className="carousel">
       <div className="heading">
         <h2 className="look-at">Let's Have a Look at my <span className="folio">Portfolio</span></h2>
-        <button className="see-more"><p>See More</p> <img src="src\assets\arrow-up-right-svgrepo-com.svg" alt="See More" /></button>
+        <button onClick={openGithub} className="see-more"><p>See More</p> <img src={arrowUp} alt="See More" /></button>
       </div>
       <div className="carousel-box">
-        <button className="carousel-btn" onClick={prevSlide}><img src="src\assets\arrow-sm-left-svgrepo-com.svg" alt="Previous" /></button>
+        <button className="carousel-btn" onClick={prevSlide}><img src={arrowLeft} alt="Previous" /></button>
         
         <AnimatePresence mode="wait">
         <motion.div
@@ -83,7 +88,7 @@ const Carousel = ({ projects }) => {
 
           </motion.div>
           </AnimatePresence>
-         <button className="carousel-btn-2" onClick={nextSlide}><img src="src\assets\arrow-sm-right-svgrepo-com.svg" alt="Next" /></button>
+         <button className="carousel-btn-2" onClick={nextSlide}><img src={arrowRight} alt="Next" /></button>
        
       </div>
       <div className="project-info">
@@ -133,10 +138,10 @@ const Carousel = ({ projects }) => {
       </div>
       <div className="mobile-btn">
       {isMobile && ( // Render buttons only on mobile
-          <div className="carousel-btn-3" onClick={prevSlide}><img src="src\assets\arrow-sm-left-svgrepo-com.svg" alt="Next" /></div>
+          <div className="carousel-btn-3" onClick={prevSlide}><img src={arrowLeft} alt="Next" /></div>
         )}
          {isMobile && ( // Render buttons only on mobile
-          <div className="carousel-btn-4" onClick={nextSlide}><img src="src\assets\arrow-sm-right-svgrepo-com.svg" alt="Next" /></div>
+          <div className="carousel-btn-4" onClick={nextSlide}><img src={arrowRight} alt="Next" /></div>
         )}
         </div>
     </div>
