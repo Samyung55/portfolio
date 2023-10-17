@@ -1,11 +1,12 @@
 import React from "react";
+import hireimg from "../../assets/hire.png"
 import "./hire.css"
 
 const Hire = () => {
     return (
         <div className="hire">
             <div className="img-box">
-                <img src="src\assets\hire.png" className="hire-img" alt="" />
+                <img src={hireimg} className="hire-img" alt="" />
             </div>
             <div className="section-2">
                 <h2 className="why">
@@ -31,7 +32,8 @@ const Hire = () => {
                         <p className="industry">Industry Covered</p>
                     </div>
                 </div>
-                <button className="hire-btn">Hire Me</button>
+                <a href="https://www.instagram.com/yungofficial5/">
+                <button className="hire-btn">Hire Me</button></a>
             </div>
         </div>
     )
