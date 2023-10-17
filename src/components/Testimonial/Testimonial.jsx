@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import arrowLeft from "../../assets/arrow-sm-left-svgrepo-com.svg"
+import arrowRight from "../../assets/arrow-sm-right-svgrepo-com.svg"
+import qouteicon from "../../assets/icons8-quote-32.png"
 import "./testimonial.css"
 
 const Testimonial = ({ clients }) => {
@@ -43,7 +46,7 @@ const Testimonial = ({ clients }) => {
     }, []);
 
     return (
-    <div className="testimonials">
+    <div id="testimonials" className="testimonials">
         <div className="test-head">
       <motion.h1
         className="testimonial"
@@ -91,7 +94,7 @@ const Testimonial = ({ clients }) => {
                     <p>{prevClient.company}</p>
                 </div>
                 <div className="test-quote">
-                    <img src="src\assets\icons8-quote-32.png"></img>
+                    <img src={qouteicon}></img>
                 </div>
             </div>
         </div>
@@ -123,7 +126,7 @@ const Testimonial = ({ clients }) => {
                     <p>{currentClient.company}</p>
                 </div>
                 <div className="test-quote">
-                    <img src="src\assets\icons8-quote-32.png"></img>
+                    <img src={qouteicon}></img>
                 </div>
             </div>
         </div>
@@ -155,7 +158,7 @@ const Testimonial = ({ clients }) => {
                     <p>{nextClient.company}</p>
                 </div>
                 <div className="test-quote">
-                    <img src="src\assets\icons8-quote-32.png"></img>
+                    <img src={qouteicon}></img>
                 </div>
             </div>
         </div>
@@ -168,12 +171,12 @@ const Testimonial = ({ clients }) => {
         onClick={prevSlide}
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.7 }}><img src="src\assets\arrow-sm-left-svgrepo-com.svg" alt="Previous" /></motion.button>
+        transition={{ duration: 0.7 }}><img src={arrowLeft} alt="Previous" /></motion.button>
         <motion.button className="test-btn-2" onClick={nextSlide}
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.7 }}
-        ><img src="src\assets\arrow-sm-right-svgrepo-com.svg" alt="Next" /></motion.button>
+        ><img src={arrowRight} alt="Next" /></motion.button>
         </div>
     </div>
     )
