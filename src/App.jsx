@@ -38,6 +38,22 @@ const App = () => {
     );
   }
 
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+  
+      const targetId = this.getAttribute('href').substring(1); // Get the target element's id
+      const targetElement = document.getElementById(targetId);
+  
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    });
+  });
+  
+
   // Define animation variants for Hero component
   const heroVariants = {
     hidden: { opacity: 0 },
@@ -216,7 +232,7 @@ useEffect(() => {
           <Navbar />
         </motion.div>
 
-      
+        <div className="container">
       `<motion.div
   ref={heroRef}
   initial={{ opacity: 0, y: 50 }}
@@ -276,7 +292,7 @@ useEffect(() => {
 >
   <Footer />
 </motion.div>
-
+</div>
       </div>
   );
 }
