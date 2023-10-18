@@ -179,10 +179,10 @@
     }
     
     .look-at {
-        width: 100%;
+        width: 90%;
         font-family: 'Syne', sans-serif;
         margin-bottom: 1em;
-        font-size: 32px;
+        font-size: 25px;
         margin-left: -0em;
         margin-top: -0.5em;
     }
@@ -192,7 +192,7 @@
     }
     
     .see-more {
-        width: 34%;
+        width: 36%;
         margin-left: 0em;
         margin-top: -10px;
         height: 3.5em;
@@ -277,14 +277,14 @@
         display: flex;
         margin-top: 1.5em;
         margin-left: em;
-        
+        width: 88.5%;
     }
     
     .tags h3 {
         margin-left: 0.5em;
         margin-right: 35px;
         font-family: 'Open Sans', sans-serif;
-        font-size: 12px;
+        font-size: 9px;
         font-weight: 500;
         background-color: #F0F0F0;
         padding: 8px 12px;
@@ -298,10 +298,9 @@
     .project-title {
         font-family: 'Syne', sans-serif;
         margin-top: 1.5em;
-        margin-bottom: 12px;
         font-size: 21px;
         margin-left: -20px;
-        width: 50%;
+        width: 80%;
         text-align: center;
     }
     
@@ -310,14 +309,15 @@
         font-family: 'Open Sans', sans-serif;
         margin-top: 0.8em;
         width: 90%;
-        font-size: 14px;
+        font-size: 13px;
         margin-left: -15px;
         text-align: center;
+        text-align: justify;
     }
     
     .carousel-btn-3 {
         background-color: #262626;
-    width: 18%;
+    width: 21%;
     height: 5.1em;
     border: 0.5em solid rgb(255, 255, 255);
     border-radius: 50%;
@@ -332,7 +332,7 @@
 
     .carousel-btn-4 {
         background-color: #fe4519;
-        width: 18%;
+        width: 21%;
         height: 5.1em;
         border: 0.5em solid rgb(255, 255, 255);
         border-radius: 50%;
