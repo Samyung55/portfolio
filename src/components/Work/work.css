@@ -134,6 +134,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 120%;
     }
 
     .company-1 {
@@ -149,7 +150,7 @@
         margin-bottom: 35px;
         margin-left: -35px;
         margin-top: -15px;
-    width: 50%;
+    width: 80%;
     text-align: center;
     }
     
@@ -169,6 +170,7 @@
         margin-top: 2em;
         margin-bottom: 9px;
         font-family: 'Syne', sans-serif;
+        font-size: 19px;
     }
     
     .years {
@@ -182,6 +184,8 @@
         flex-direction: column;
         width: 100%;
         margin-left: 3em;
+        font-size: 14px;
+        margin-top: 10px;
     }
     
     .position-2 {
@@ -232,11 +236,11 @@
 
     .inter-bar-1 {
         position: relative;
-        height: 24em;
+        height: 22em;
         width: 0.1em;
         align-self: center;
-        margin-left: -25em;
-        margin-top: -23.5em;
+        margin-left: -25.5em;
+        margin-top: -23.2em;
         border: 2px black dotted;
         border-width: 2px;
         margin-bottom: -2px;
@@ -247,8 +251,8 @@
         height: 24em;
         width: 0.1em;
         align-self: center;
-        margin-left: -25em;
-        margin-top: -26em;
+        margin-left: -25.5em;
+        margin-top: -24.3em;
         border: 2px black dotted;
         border-width: 2px;
         margin-bottom: -2px;
