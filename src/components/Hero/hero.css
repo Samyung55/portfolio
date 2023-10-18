@@ -226,3 +226,44 @@ h1 {
     display: none;
   }
 }
+
+@media (max-width: 720px) {
+
+    h1 {
+        font-family: 'Syne', sans-serif;
+        margin-top: em;
+        font-size: 32px;
+    }
+
+    .pic { 
+        width: 380px; /* Adjust the width to make the image bigger */
+        height: auto; /* Automatically adjust the height to maintain aspect ratio */
+        max-width: 100%; /* Optional, to ensure it doesn't exceed its container's width */
+        max-height: 100%;
+        margin-top: -55px;
+    }
+
+    .greeting {
+        font-family: 'IBM Plex Mono', monospace;
+        border: solid black 1px;
+        border-radius: 29px;
+        padding: 5px 15px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .pic-bg {
+        width: 400px;
+        height: 430px;
+        background-color:#fe5000;
+        margin-top: -280px;
+        margin-left: 40px;
+        border-top-left-radius: 50%; /* Top left corner creates a circular shape */
+        border-top-right-radius: 50%; /* Top right corner creates a circular shape */
+        border-bottom-left-radius: 0; /* Bottom left corner makes it flat */
+        border-bottom-right-radius: 0;
+        margin-bottom: -100px;
+        background-size: cover;
+      }
+
+}
