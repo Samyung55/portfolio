@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./mobile.css";
 
+import s from "../../assets/s.png"
+
 const Mobile = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -16,7 +18,7 @@ const Mobile = () => {
   return (
     <div className={`nav ${menuOpen ? "menu-open" : "d"}`}>
       <div className="name"> 
-          <img src="src\assets\s.png" alt="logo" />
+          <img src={s} alt="logo" />
           <h3>Sam</h3> </div>
       <div className="menu-icon" onClick={toggleMenu}>
         <div className="bar"></div>
